@@ -1,0 +1,28 @@
+# Archivos del sistema operativo y temporales
+.DS_Store
+Thumbs.db
+
+# Módulos de Node.js
+node_modules/
+
+# Archivos de configuración local
+.env
+
+# Logs y archivos de depuración
+*.log
+debug.log
+
+# Archivos de caché
+.cache
+
+# Carpetas de paquetes (si usas un gestor de paquetes diferente a npm o yarn)
+bower_components/
+vendor/
+
+# Archivos específicos del IDE (si usas alguno)
+.idea/
+.vscode/
+
+# Archivos personales (si tienes archivos de configuración o contraseñas locales)
+config.json
+mi_contraseña.txt
