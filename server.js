@@ -14,10 +14,15 @@ const server = http.createServer(app);
 // Configurar Socket.IO
 const io = new Server(server, {
   cors: {
-    origin: "*", // Puedes restringir el origen si lo deseas
+    origin: "https://transporte.a3cli.com", // Puedes restringir el origen si lo deseas
     methods: ["GET", "POST"],
+    credentials: true
   },
 });
+
+
+
+
 
 // Lógica de Socket.IO
 io.on("connection", (socket) => {
